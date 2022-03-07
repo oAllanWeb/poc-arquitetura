@@ -1,0 +1,42 @@
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  background: #ffffff;
+  border: solid 1px #dedede;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-title {
+  padding: 5px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-status {
+  padding: 5px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 26px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.card-status::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #7a7a7a;
+  left: 10px;
+  top: 10px;
+  position: absolute;
+  border-radius: 100%;
+}
+.card-status__Alive::before {
+  background-color: #27a727;
+}
+.card-status__Dead::before {
+  background-color: #a72727;
+}
