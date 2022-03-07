@@ -1,5 +1,5 @@
 import Template from "../components/Template/Template";
-
+import "./styles.css";
 export default function Home(props) {
   const { childrenTop, childrenBottom } = props;
   return (
