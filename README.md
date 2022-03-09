@@ -2,4 +2,4 @@
 
 Created with CodeSandbox
 
-![doc/repesentacao-aquitetura.png](repesentacao-aquitetura.png)
+![./doc/repesentacao-aquitetura.png](repesentacao-aquitetura.png)
