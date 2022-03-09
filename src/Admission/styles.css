@@ -1,0 +1,17 @@
+.Admission {
+  margin: 50px auto;
+  width: ;
+}
+.Admission-container {
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: dense; /* [2] */
+  grid-template-columns: repeat(auto-fit, 20rem); /* [1] */
+  justify-content: center;
+}
+
+.Admission-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 50px;
+  line-height: 60px;
+}
